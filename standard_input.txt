@@ -1,0 +1,32 @@
+Baseline
+units,of,columns,to,match,number,of,columns,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+xs_1,ys_1,xs_2,ys_2,xs_3,ys_3,xs_4,ys_4,
+
+Baseline
+meta_
+_data
+
+
+###Notes: 1. up to 4 x,y pairs
+          2. "Baseline" is used to know where to cut out the arrays
+	  3. start with higher xs at the top for abs. 
