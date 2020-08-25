@@ -19,8 +19,7 @@ import csv
 from pyfladesk import init_gui
 
 UPLOAD_FOLDER = '.'
-ALLOWED_EXTENSIONS = {'csv', 'txt', 'xlsx'}
-#ALLOWED_EXTENSIONS = {'csv', 'txt'}
+ALLOWED_EXTENSIONS = {'csv', 'txt'}
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
