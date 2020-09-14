@@ -1,0 +1,33 @@
+Download the 0nset zip from github 
+
+move v_2.0.7 folder to Documents
+
+install python 3.8 from python.org
+
+
+from your terminal, use the following commands...
+
+	pip3 install matplotlib
+
+	pip3 install numpy
+
+	pip3 install xlrd
+
+	pip3 install flask
+
+change to the directory in terminal through the following command... future uses start at this step
+
+	cd Documents/v_2.0.7
+
+finally, use the following command to launch the localhost...
+
+	flask run
+
+copy http://127.0.0.1:5000/ and past to chrome browser
+
+use the 0nset program by uploading file and selecting parameters
+
+when finished, close the browser and in the terminal press the control and c keys at the same time CONTROL+C  
+
+the localhost is now terminated and terminal can be closed
+
