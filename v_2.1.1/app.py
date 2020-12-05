@@ -192,7 +192,7 @@ def uploaded_file(filename):
         # Encode PNG image to base64 string
         pngImageB64String = "data:image/png;base64,"
         pngImageB64String += base64.b64encode(pngImage.getvalue()).decode('utf8')
-        plt.clf()
+        #plt.clf()
 
         return pngImageB64String
 
@@ -265,7 +265,7 @@ def uploaded_file(filename):
         # Encode PNG image to base64 string
         pngImageB64String = "data:image/png;base64,"
         pngImageB64String += base64.b64encode(pngImage.getvalue()).decode('utf8')
-        plt.clf()
+        #plt.clf()
         
         return pngImageB64String
 
@@ -335,10 +335,10 @@ def uploaded_file(filename):
         if radio1 == 'radio_y':
             plt.plot(xs_2, ys_2, "bo-", linewidth = 1, markersize = 0)
             plt.savefig("../" + file_1 + ".pdf")
-            plt.clf()
+            #plt.clf()
         if radio1 == 'radio_n':
             plt.savefig("../" + file_1 + ".pdf")
-            plt.clf()
+            #plt.clf()
 
         redirect(url_for('upload_file'))
         return
