@@ -1,27 +1,57 @@
+FIRST TIME SETUP
+
 Download the 0nset zip from github 
 
-move v_2.1.2 folder to Documents
+Move the v_2.1.2 folder to Documents
 
-install python 3.8 from python.org
+Install python 3.8 from python.org
 
-
-from your terminal, use the following commands...
-
-	pip3 install -r requirements.txt
-
-change to the directory in terminal through the following command... future uses start at this step
+Change to the directory in terminal through the following command
 
 	cd Documents/v_2.1.2
 
-finally, use the following command to launch the localhost...
+To ensure that the correct library versions are used for this program, setup a virtual environment with the command below.
+	
+	python3 -m venv .venv
+
+Whenever using the application in the future, the virtual environment needs to be activated with the command below.
+
+	source .venv/bin/activate
+
+Then install the dependencies with the following command.
+
+	pip3 install -r requirements.txt
+
+
+Finally, use the following command to launch the localhost.
 
 	flask run
 
-Copy http://127.0.0.1:5000/ and paste into a browser
+Copy http://127.0.0.1:5000/ and paste into a browser.
 
-Use the 0nset program by uploading file and selecting parameters
+Use the 0nset program by uploading file and selecting parameters.
 
-When finished, close the browser and in the terminal press the control and c keys at the same time (CONTROL+C)  
+When finished, close the browser and in the terminal press the control and c keys at the same time (CONTROL+C).
 
-The localhost is now terminated and terminal can be closed
+Then exit the virtual environement through the command below.
 
+	deactivate
+
+The localhost is now terminated and the virtual environemnt is deactivated. The terminal can now be closed.
+
+RETURNING USERS
+
+Open terminal and navigate to v_2.1.2
+
+	cd Documents/v_2.1.2
+
+Activate the virual environment and run Flask through the following commands.
+
+	source .venv/bin/activate
+	flask run
+
+When finished, end flask and exit the virtual environment.
+	(CONTROL+C)
+	deactivate
+
+Now terminal may be closed.
