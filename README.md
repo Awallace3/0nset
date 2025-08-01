@@ -1,6 +1,10 @@
 # 0nset
 Data analysis to find the onset value
 
+While the present repository provides source code for a python
+implementation, actual usage is directed towards a javascript 
+implementation freely available at [dyesdb.com](https://dyesdb.com/onset).
+
 The code used for "Accurate Determination of the Onset
 Wavelength (onset) in Optical Spectroscopy" is found in
 v_2.0.7
